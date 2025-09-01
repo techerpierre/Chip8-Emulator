@@ -6,6 +6,8 @@ In addition to the emulator, the project also provides a custom CHIP-8 compiler,
 
 This project is primarily an educational effort, helping me learn how emulation works under the hood, from instruction decoding to memory management, while also exploring compiler design for retro architectures.
 
+(Note: This implementation may contain some errors.)
+
 ## 🔨 Build & Scripts
 
 This project uses a Makefile to automate building, cleaning, running in dev mode, and compiling CHIP-8 programs.
