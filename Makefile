@@ -1,5 +1,5 @@
 PYINSTALLER = pyinstaller
-SRC = src/main.py
+SRC = src/emulator/main.py
 DIST = dist
 BUILD = build
 ASSETS = assets
@@ -36,10 +36,10 @@ clean:
 	$(RM) $(BUILD)
 
 dev:
-	python src/main.py $(DEV_ROM_PATH)
+	python $(SRC) $(DEV_ROM_PATH)
 
 PROGRAM_SRC = /
 PROGRAM_OUT = /
 
 compile:
-	python ./scripts/compiler.py $(PROGRAM_SRC) --outpath $(PROGRAM_OUT)
+	python ./src/compiler/main.py $(PROGRAM_SRC) --outpath $(PROGRAM_OUT)

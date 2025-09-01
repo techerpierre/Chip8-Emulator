@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['src\\main.py'],
+    ['src\\emulator\\main.py'],
     pathex=[],
     binaries=[],
     datas=[('assets', 'assets')],
