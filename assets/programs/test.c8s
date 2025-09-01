@@ -1,0 +1,6 @@
+main:
+LD_VX_K v2
+SE v2 10
+JP main
+ADD v0, 10
+JP main
